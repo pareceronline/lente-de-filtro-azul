@@ -17,9 +17,9 @@ module.exports = {
         name: "Ótica Santa Luzia",
         short_name: "Ótica Santa Luzia",
         start_url: "/",
-        background_color: theme.colors.white,
-        theme_color: theme.colors.teal[500],
-        icon: "static/icon.svg",
+        background_color: '#fdcf84',
+        theme_color: '#fdcf84',
+        icon: "static/avatar.png",
       },
     },
     {
