@@ -13,6 +13,10 @@ export const ContainerHeader = styled.section`
   background-size: cover;
   background-position: center;
   backdrop-filter: brightness(70%);
+
+  .modelo1 {
+    transform: rotateY(180deg);
+  }
 `
 
 export const ContainerCarouselWrapper = styled.section`

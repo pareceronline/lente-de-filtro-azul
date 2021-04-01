@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
             <span className="text-white" style={{fontSize: "10px"}}>® 2021 - Todos os direito reservados | Ótica Santa Luzia</span>
           </div>
           <div>
-            <img  className="w-20" src={logobellmont} alt="Logo Bellmont Sistema" />
+            <a href="https://bellmontsistema.com.br" target="_blank" rel="noopener noreferrer" ><img  className="w-20" src={logobellmont} alt="Logo Bellmont Sistema" /></a>
           </div>
         </footer>
       </div>

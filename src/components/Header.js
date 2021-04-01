@@ -25,7 +25,7 @@ const Header = () => (
     </div>
 
     <div className="hidden md:flex flex-col items-center w-1/2">
-      <img className="absolute bottom-0" src={modelo} alt="Imagem Modelo" />
+      <img className=" absolute bottom-0 modelo1" src={modelo} alt="Imagem Modelo" style={{width: '40%'}}/>
     </div>
 
    </div>
