@@ -3,6 +3,7 @@ import Slider from "react-slick"
 import * as S from './styled'
 
 import avatar1 from '../images/avatar1.png'
+import avatar2 from '../images/avatar2.png'
 
 const SocialProof = () => {
 
@@ -27,33 +28,25 @@ const SocialProof = () => {
               <div className="flex flex-col w-full h-full items-center justify-center ">
                 <div className="bg-white flex flex-col w-4/6 h-40 rounded-lg shadowBox">
                   <div className="flex flex-col items-center transform  -translate-y-12">
-                    <img className="w-24" src={avatar1} alt="Avatar1" />
+                    <img className="w-20" src={avatar1} alt="Avatar1" />
                     <h2 className="text-lg font-bold text-preto">Patrícia</h2>
-                    <p className="text-sm text-center text-preto">"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you"</p>
+                    <p className="text-center text-preto" style={{fontSize: '10px'}}>"Fui à ótica Santa Luzia comprar uma lente  de grau e uma armação para minha necessidade de enxergar melhor de perto. Gostei muito da experiência, pelo atendimento e atenção além das qualidades e variedades que os produtos oferecem!!!"</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="flex w-full h-64">
-              <div className="flex flex-col w-full h-full items-center justify-center">
-                <div className="bg-white flex flex-col w-4/6 h-40 rounded-lg shadowBox">
-                  <div className="flex flex-col items-center transform  -translate-y-12">
-                    <img className="w-24" src={avatar1} alt="Avatar1" />
-                    <h2 className="text-lg font-bold text-preto">Jessica</h2>
-                    <p className="text-sm text-center text-preto">"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you"</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex w-full h-64">
+            <div className="flex w-full h-64 ">
               <div className="flex flex-col w-full h-full items-center justify-center ">
-                <div className="bg-white flex flex-col w-4/6 h-40 rounded-lg shadowBox">
+                <div className="bg-white flex flex-col w-3/4 h-40 rounded-lg shadowBox">
                   <div className="flex flex-col items-center transform  -translate-y-12">
-                    <img className="w-24" src={avatar1} alt="Avatar1" />
-                    <h2 className="text-lg font-bold text-preto">Amanda</h2>
-                    <p className="text-sm text-center text-preto">"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you"</p>
+                    <img className="w-20" src={avatar2} alt="Avatar1" />
+                    <h2 className="text-lg font-bold text-preto">Patrícia</h2>
+                    <p className="text-center text-preto" style={{fontSize: '10px'}}>
+                    Primeiramente não tenho o que por nem tirar com o atendimento, pessoas completamente educadas
+                      e atenciosas. Tive uma ótima experiência com as lentes de filtro azul, tenho aulas em Ead fico muito em frente ao computador me 
+                       ajudou muito com as dores de cabeça!
+                    </p>
                   </div>
                 </div>
               </div>
