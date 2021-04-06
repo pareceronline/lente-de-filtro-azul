@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <SEO />
-      <div className="flex flex-col min-h-screen bg-amarelo">
+      <div className="flex flex-col min-h-screen bg-gray-100">
         <Header />
         <main>{children}</main>
         <footer className="bg-preto flex justify-between items-center p-4">

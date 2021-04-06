@@ -86,6 +86,14 @@ export const ContainerCarousel = styled.div`
       `}
     }
   }
+
+  p {
+    font-size: 13px;
+
+    ${media.lessThan('small')`
+      font-size: 9px;
+    `}
+  }
 `
 
 export const ContainerSocialProof = styled.section`

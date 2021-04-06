@@ -27,10 +27,12 @@ const SocialProof = () => {
             <div className="flex w-full h-64 ">
               <div className="flex flex-col w-full h-full items-center justify-center ">
                 <div className="bg-white flex flex-col w-4/6 h-40 rounded-lg shadowBox">
-                  <div className="flex flex-col items-center transform  -translate-y-12">
+                  <div className="flex flex-col items-center transform  -translate-y-10">
                     <img className="w-20" src={avatar1} alt="Avatar1" />
-                    <h2 className="text-lg font-bold text-preto">Patrícia</h2>
-                    <p className="text-center text-preto" style={{fontSize: '10px'}}>"Fui à ótica Santa Luzia comprar uma lente  de grau e uma armação para minha necessidade de enxergar melhor de perto. Gostei muito da experiência, pelo atendimento e atenção além das qualidades e variedades que os produtos oferecem!!!"</p>
+                    <h2 className="text-lg font-bold text-preto text-center">Patrícia</h2>
+                    <div className="p-2">
+                      <p className="text-center text-preto text-proof">"Fui à ótica Santa Luzia comprar uma lente  de grau e uma armação para minha necessidade de enxergar melhor de perto. Gostei muito da experiência, pelo atendimento e atenção além das qualidades e variedades que os produtos oferecem!!!"</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -39,14 +41,16 @@ const SocialProof = () => {
             <div className="flex w-full h-64 ">
               <div className="flex flex-col w-full h-full items-center justify-center ">
                 <div className="bg-white flex flex-col w-3/4 h-40 rounded-lg shadowBox">
-                  <div className="flex flex-col items-center transform  -translate-y-12">
+                  <div className="flex flex-col items-center transform  -translate-y-10">
                     <img className="w-20" src={avatar2} alt="Avatar1" />
-                    <h2 className="text-lg font-bold text-preto">Patrícia</h2>
-                    <p className="text-center text-preto" style={{fontSize: '10px'}}>
+                    <h2 className="text-lg font-bold text-preto text-center">Patrícia</h2>
+                    <div className="p-2">
+                    <p className="text-center text-preto text-proof">
                     Primeiramente não tenho o que por nem tirar com o atendimento, pessoas completamente educadas
                       e atenciosas. Tive uma ótima experiência com as lentes de filtro azul, tenho aulas em Ead fico muito em frente ao computador me 
                        ajudou muito com as dores de cabeça!
                     </p>
+                    </div>
                   </div>
                 </div>
               </div>
