@@ -15,7 +15,6 @@ export const ContainerHeader = styled.section`
   backdrop-filter: brightness(70%);
 
   .modelo1 {
-    transform: rotateY(180deg);
   }
 `
 
@@ -137,11 +136,15 @@ export const ContainerAddress = styled.section`
 `
 
 export const ContainerWhatsApp = styled.div`
-  display: absolute;
+  display: block;
   position: fixed;
-  z-index: 9999;
-  right: 40px;
-  bottom: 40px;
+  right: 10%;
+  bottom: 10%;
+
+  ${media.lessThan('small')`
+    right: 60px;
+    bottom: 60px; 
+  `}
   
   img {
     width: 50px;

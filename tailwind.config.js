@@ -8,7 +8,8 @@ module.exports = {
         amarelo: '#fdcf84',
         preto: '#3a3a55',
         vermelho: '#b52c51',
-        azul: '#0FAEBF'
+        azul: '#0FAEBF',
+        background: '#f4e9bc',
       },
     },
   },
