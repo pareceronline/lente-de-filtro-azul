@@ -20,7 +20,7 @@ const Header = () => (
       </h2>
       </div>
       <div className="flex flex-col w-10/12 h-auto items-center md:items-start">
-        <Link className="bg-azul hoverButton rounded-lg text-white text-lg w-48 h-12 mt-3 flex items-center content-center justify-center font-bold" to="#" aria-label="Link">BAIXAR CATÁLOGO</Link>
+        <Link className="bg-azul hoverButton rounded-lg text-white text-lg w-48 h-12 mt-3 flex items-center content-center justify-center font-bold" to="#subscribe" aria-label="Link">ORÇAMENTO</Link>
       </div>
     </div>
 

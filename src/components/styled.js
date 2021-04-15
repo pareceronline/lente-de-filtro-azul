@@ -135,3 +135,16 @@ export const ContainerAddress = styled.section`
   flex-direction: column;
   width: 100%;
 `
+
+export const ContainerWhatsApp = styled.div`
+  display: absolute;
+  position: fixed;
+  z-index: 9999;
+  right: 40px;
+  bottom: 40px;
+  
+  img {
+    width: 50px;
+    height: auto;
+  }
+`

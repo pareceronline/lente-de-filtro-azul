@@ -5,6 +5,7 @@ import SocialProof from '../components/SocialProof'
 import SubsbribeSection from "../components/SubsbribeSection"
 import Benefits from "../components/Benefits"
 import Address from "../components/Address"
+import WhatsApp from "../components/WhatsApp"
 
 
 export default () => {
@@ -16,6 +17,7 @@ export default () => {
         <Benefits />
         <SubsbribeSection />
         <Address />
+        <WhatsApp />
       </main>
     </Layout>
   )

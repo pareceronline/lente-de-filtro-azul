@@ -8,7 +8,7 @@ import logo from '../images/logo-preto.png'
 
 const SubsbribeSection = () => (
   <S.ContainerSubsbribeSection>
-   <div className="flex flex-col md:flex-row w-4/5 md:w-3/4  bg-white rounded-lg shadowBox">
+   <div id="subscribe" className="flex flex-col md:flex-row w-4/5 md:w-3/4  bg-white rounded-lg shadowBox">
 
       <div className="flex flex-col w-full text-center md:w-2/4 justify-center p-4">
         <h2 className="text-lg font-bold mb-3">Onde encontro a lente de filtro azul ?</h2>
