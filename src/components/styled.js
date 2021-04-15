@@ -138,8 +138,8 @@ export const ContainerAddress = styled.section`
 export const ContainerWhatsApp = styled.div`
   display: block;
   position: fixed;
-  right: 10%;
-  bottom: 10%;
+  right: 40px;
+  bottom: 40px;
 
   ${media.lessThan('small')`
     right: 60px;
